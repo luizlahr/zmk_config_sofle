@@ -14,28 +14,28 @@
         mcr_copy: mcr_copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_GUI &kp C &kt LEFT_GUI>;
+            bindings = <&kt LEFT_COMMAND &kp C &kt LEFT_COMMAND>;
             label = "MCR_COPY";
         };
 
         mcr_paste: mcr_paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_GUI &kp V &kt LEFT_GUI>;
+            bindings = <&kt LEFT_COMMAND &kp V &kt LEFT_COMMAND>;
             label = "MCR_PASTE";
         };
 
         mcr_undo: mcr_undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp Z>;
+            bindings = <&kt LEFT_COMMAND &kp Z &kt LEFT_COMMAND>;
             label = "MCR_UNDO";
         };
 
         mcr_cut: mcr_cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp X>;
+            bindings = <&kt LEFT_GUI &kp X &kt LEFT_COMMAND>;
             label = "MCR_CUT";
         };
     };
