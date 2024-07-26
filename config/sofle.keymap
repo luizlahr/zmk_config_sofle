@@ -102,11 +102,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp GRAVE  &kp F1  &kp F2          &kp F3        &kp F4        &kp F5                                    &kp F6                &kp F7                 &kp F8     &kp F9  &kp F10       &kp DELETE
-&trans     &none   &none           &none         &none         &kp C_AC_PRINT                            &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans  &trans        &kp KP_MINUS
-&trans     &trans  &none           &none         &none         &kp PRINTSCREEN                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans  &none         &kp PLUS
-&trans     &trans  &none           &none         &none         &none            &trans    &kp C_PIP      &kp LBKT              &kp RBKT               &kp MINUS  &none   &kp KP_EQUAL  &kp ENTER
-                   &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans           &trans    &kp C_AL_LOCK  &trans                &trans                 &trans     &trans
+&kp GRAVE  &kp F1         &kp F2          &kp F3        &kp F4        &kp F5                                    &kp F6                &kp F7                 &kp F8     &kp F9  &kp F10       &kp DELETE
+&trans     &kp HOME       &none           &none         &none         &kp C_AC_PRINT                            &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans  &trans        &kp KP_MINUS
+&trans     &kp C_AC_HOME  &none           &none         &none         &kp PRINTSCREEN                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans  &none         &kp PLUS
+&trans     &trans         &none           &none         &none         &none            &trans    &kp C_PIP      &kp LBKT              &kp RBKT               &kp MINUS  &none   &kp KP_EQUAL  &kp ENTER
+                          &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans           &trans    &kp C_AL_LOCK  &trans                &trans                 &trans     &trans
             >;
 
             sensor-bindings =
