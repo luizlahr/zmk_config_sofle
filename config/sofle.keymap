@@ -42,28 +42,28 @@
         previous_word: previous_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT &kp LEFT_ARROW &kt LEFT_ALT>;
+            bindings = <&kt LEFT_ALT &kp LEFT &kt LEFT_ALT>;
             label = "PREVIOUS_WORD";
         };
 
         next_word: next_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT &kp RIGHT_ARROW &kt LEFT_ALT>;
+            bindings = <&kt LEFT_ALT &kp RIGHT &kt LEFT_ALT>;
             label = "NEXT_WORD";
         };
 
         sel_prev_word: sel_prev_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT &kt LEFT_SHIFT &kp LEFT_ARROW &kt LEFT_SHIFT &kt LEFT_ALT>;
+            bindings = <&kt LEFT_ALT &kt LEFT_SHIFT &kp LEFT &kt LEFT_SHIFT &kt LEFT_ALT>;
             label = "SEL_PREV_WORD";
         };
 
         sel_next_word: sel_next_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT &kt LEFT_SHIFT &kp RIGHT_ARROW &kt LEFT_SHIFT &kt LEFT_ALT>;
+            bindings = <&kt LEFT_ALT &kt LEFT_SHIFT &kp RIGHT &kt LEFT_SHIFT &kt LEFT_ALT>;
             label = "SEL_NEXT_WORD";
         };
     };
